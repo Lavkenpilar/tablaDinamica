@@ -1,0 +1,62 @@
+#caja1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: wheat;
+    width: 700px ;
+    height: auto;
+    margin-top: 300px;
+margin-left: 600px;
+font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    margin-left: 10px;
+}
+#agregaTarea {
+    margin-left: 10px;
+}
+#nuevaTarea {
+    width: 500px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#agregar {
+    height: 40px;
+    width:80px ;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#table {
+   margin-left: 200px;
+}
+.bodyTable{
+    margin-left: 250px;
+}
+.idTarea {
+    width: 20%;
+}
+.nombreTarea {
+    width: 40%;
+}
+
+.estadoTarea {
+    width: 20%;
+}
+.accionBoton {
+    width: 20%;
+}
+thead.nro {
+    width: 20%
+}
+thead.descripcionTarea {
+    width: 40%;
+}
+thead.estado {
+    width: 20%;
+}
+thead.eliminar {
+    width: 20%;
+}

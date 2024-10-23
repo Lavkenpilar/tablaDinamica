@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <title>Desafio Lista</title>
+</head>
+<body>
+    <div id="caja1">
+        <header>
+            <h1>Todo List</h1>
+        </header>
+        
+            <p> Nueva tarea</p>
+            <br>
+            
+            <form>
+            <input id="nuevaTarea" type="text">
+            <button onclick="agregarTarea(event)" type="button" id="agregar" >✔Agregar</button>
+            </form>
+            <br>
+            <table id="table">
+                <thead>
+                    <th class="nro">ID</th>
+                    <th class="descripcionTarea">Tarea</th>
+                    <th class="estado">Estado</th>
+                    <th class="eliminar">Eliminar</th>
+                 </thead>
+                <tbody class="bodyTable"></tbody>
+            </table>
+            <div>
+            <p><strong>Total Realizadas:</strong><span id="cuentaTareas"></span> </p>
+            <p><strong>Total Tareas:</strong><span id="totalTareas"></span> </p>
+            </div>
+</div>
+<script src="assets\js\script .js"></script>
+</body>
+</html>
